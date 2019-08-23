@@ -23,7 +23,7 @@ class App extends Component{
 
             this.setState({newquote: quote})
 
-        },3000)
+        },2000)
 
         return <h1> {this.state.newquote } </h1>
     } 
